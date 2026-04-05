@@ -276,7 +276,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'Inventory Management',
       ],
       snippet: `<div class="product-card">\n  <img src={product.image} alt={product.name} />\n  <h3>{product.name}</h3>\n  <p>{product.price}</p>\n  <button>Add to Cart</button>\n</div>`,
-      link: '#',
+      link: 'https://caraclothing.vercel.app/',
     },
     {
       id: 1,
@@ -294,7 +294,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       ],
       snippet: `{% assign scheme_classes = scheme_classes\n  scheme.settings.text.red\n  .attr("height", height);\n\nsvg.selectAll("products")\n  .data(Shopify)\n  .enter()\n  .append("liquid");`,
-      link: '#',
+      link: 'https://pizza-shop-inky-nine.vercel.app/',
     },
     {
       id: 2,
@@ -310,7 +310,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'Taxes',
       ],
       snippet: `app.get('taxes', async (products, res) => {\n  try {\n    const posts = await Post.findAll();\n    res.json(posts);\n  } catch (err) {\n    res.status(500).send('Server Error');\n  }\n});`,
-      link: '#',
+      link: 'https://abdul-turkman-aparell.vercel.app/',
     },
     {
       id: 3,
@@ -325,7 +325,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'Choosing a lightwieght theme',
       ],
       snippet: `io.on('connection', (socket) => {\n  console.log('a user connected');\n  socket.on('chat message', (msg) => {\n    io.emit('chat message', msg);\n  });\n});`,
-      link: '#',
+      link: 'https://holloweenspooky.vercel.app/',
     },
   ];
 
